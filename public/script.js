@@ -5,7 +5,7 @@ const boardHeight = 20;
 
 const board = Array.from({ length: boardHeight }, () => Array(boardWidth).fill(0));
 
-function drawBoard() {
+/*function drawBoard() {
     gameBoard.innerHTML = '';
     board.forEach(row => {
         row.forEach(cell => {
@@ -14,9 +14,9 @@ function drawBoard() {
             gameBoard.appendChild(cellDiv);
         });
     });
-}
+}*/
 
-drawBoard();
+//drawBoard();
 
 const tetrominoes = {
     I: [
