@@ -4,27 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #000;
-}
-
-#game-board {
-    width: 200px;
-
-.empty {
-    border: 1px solid #ccc;
-}
-
-.filled {
-    background-color: #000;
-}
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #333;
+    background-color: #333; /* Updated background color */
     color: #fff;
     font-family: Arial, sans-serif;
 }
@@ -36,16 +16,15 @@ body {
     grid-template-rows: repeat(20, 1fr);
     grid-template-columns: repeat(10, 1fr);
     gap: 1px;
-    background-color: #000;
+    background-color: #000; /* Kept original background for the game board itself */
 }
 
 .empty {
-    border: 1px solid #444;
-    background-color: #111;
+    border: 1px solid #444; /* Styles from the second rule */
+    background-color: #111; /* Styles from the second rule */
 }
 
 .filled {
-    background-color: #f00;
-    border: 1px solid #333;
+    background-color: #f00; /* Styles from the second rule (red for filled blocks) */
+    border: 1px solid #333; /* Styles from the second rule */
 }
-
